@@ -51,7 +51,7 @@ nav ul {
     margin-right: 1rem;;
 }
 
-li {
+nav li {
     display: inline-block;
 }
 
@@ -105,5 +105,3 @@ main {
     border: 2px solid #000;
     padding: none;
 }
-
-
