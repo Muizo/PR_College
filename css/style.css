@@ -99,11 +99,269 @@ nav a:hover:not(.active) {
     color: #fff;
 }
 
-/*design for the body*/
+/*design for the home content*/
 main {
     margin-top: 107px;
     border: 2px solid #000;
     padding: none;
 }
 
+.background {
+    background: url(../img/homeBg.jpg) no-repeat center;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    padding-top: 200px;
+}
 
+.background-child {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    background-color: #fff;
+    width: 77%;
+    max-width: 1100px;
+    margin: auto;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 2px #ffffff;
+}
+
+#btn1 {
+    margin-top: 2rem;
+    padding: 12px 30px;
+    background-color: #04425f;
+    color:#fff;
+    font-size: 1.05rem;
+    cursor: pointer;
+}
+
+.second {
+    border: 2px solid #000;
+    max-width: 1512px;
+    margin: auto;
+    min-height: 80vh;
+
+}
+
+.second::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.secBox {
+    width: 50%;
+    float: left;
+}
+
+.secContainer {
+    padding: 100px 50px;
+}
+
+.secContainer h2 {
+    font-size: 3rem;
+    margin-bottom: 1.2rem;
+}
+
+#btn2 {
+    margin-top: 2rem;
+    padding: 12px 30px;
+    background-color: #04425f;
+    color:#fff;
+    font-size: 1.05rem;
+    cursor: pointer;
+}
+
+.secBox  div {
+    width: 500px;
+    height: 200px;
+    border: 2px solid red;
+    float: right;
+    padding: 50px;
+}
+
+.secBox a {
+    text-decoration: none;
+}
+
+.third {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #fff;
+}
+
+.third div {
+    padding: 50px;
+    text-align: center;
+    border: none;
+}
+
+.third h3 {
+    font-weight: 550px;
+    margin-bottom: 0.8rem;
+}
+
+.third p {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.fourth {
+    width: 80%;
+    max-width: 1250px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.fourth .last {
+    border-bottom: none;
+}
+
+.fourthContainer {
+    border-bottom : 1px solid #a52907;
+    min-height: 200px;
+    padding-top: 80px;
+    margin-left: 10px;
+}
+
+.fourthContainer .box {
+    float:left;
+    width: 50%;
+}
+
+.fourthContainer::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+#btn3 {
+    padding: 10px 20px;
+    background-color: #04425f;
+    color:#fff;
+    font-size: 0.8rem;
+    cursor: pointer;
+    float: right;
+}
+
+#btn4 {
+    display: block;
+    padding: 15px 30px;
+    background-color: #04425f;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin: 2rem auto;
+}
+
+#btn3:hover {
+    background-color: rgb(4, 66, 95, 0.85);
+}
+
+#btn4:hover {
+    color: gray;
+}
+
+.fifth {
+    height: 100px;
+    background-color: #fff;
+}
+
+
+.sixth::after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+.sixth {
+    height: 450px;
+}
+
+.sixth .box{
+    float: left;
+    width: 50%;
+    padding: 80px;
+    height: 450px;
+}
+
+.box1  {
+    width: 480px;
+    margin: auto;
+}
+
+.sixth .boxBg {
+    background-color: #e6c6be;
+}
+
+#formContainer::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+#formfloat {
+    padding: 0;
+    height: auto;
+    float: left;
+    width: 230px;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    margin: 4px 0;
+}
+
+.ff2 {
+    margin-left: 1rem;
+}
+
+#divbtn {
+    width: 480px;
+    position: relative;
+    height: 100px;
+}
+
+#btn5 {
+    display: block;
+    padding: 15px 60px;
+    background-color: #04425f;
+    color: #fff;
+    font-size: 1rem;
+    margin: 2rem;
+    position: absolute;
+    right: -30px;
+}
+
+.box-line p {
+    line-height: 1.7rem;
+    margin-top: 2rem;
+}
+
+.seventh {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.seventh div {
+    background-color: #a52907;
+    color: #fff;
+    padding: 100px 50px;
+    text-align: center;
+}
+
+.seventh h3 {
+    font-size: 1.7rem;
+}
+
+.seventh p {
+    line-height: 1.7rem;
+}
+
+#copyright {
+    background: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: bold;
+}
