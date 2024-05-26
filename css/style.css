@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border
+    box-sizing: border-box;
 }
 
 
@@ -20,7 +20,7 @@ header {
     overflow: auto;
     width: 100%;
     z-index: 1;
-    background-color: #f8f5f1
+    background-color: #f8f5f1;
 }
 
 .head-container {
@@ -99,9 +99,11 @@ nav a:hover:not(.active) {
     color: #fff;
 }
 
-/*design for the content*/
+/*design for the body*/
 main {
-    margin-top: 150px;
+    margin-top: 107px;
     border: 2px solid #000;
     padding: none;
 }
+
+

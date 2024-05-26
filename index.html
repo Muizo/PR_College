@@ -38,18 +38,19 @@
 
     <main>
         <section class="background">
-            <h2>Spring 2024 Applications Are Now Open</h2>
-            <div>APPLY TODAY</div>
+            <div class="background-child">
+                <h2>Spring 2024 Applications Are Now Open</h2>
+                <button id="btn1">APPLY TODAY</button>
+            </div>
         </section>
-
         <section class="second">
-            <div>
-                <h2>Why Painzo Republik Community College</h2>
+            <div class="secBox secContainer">
+                <h2>Why Painzo <br>Republik College?</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, neque. Voluptate odio nihil molestiae, ducimus odit, placeat voluptas, vitae magnam exercitationem quos officiis fugit sit sed iste perferendis accusantium quo.</p>
-                <div>READ MORE</div>
+                <button id="btn2">READ MORE</button>
             </div>
 
-            <div class="container">
+            <div class="secBox">
                 <div class="box">
                     <a href="#">
                         <h2>01.</h2>
@@ -66,7 +67,7 @@
 
                 <div class="box">
                     <a href="#">
-                        <h2>03.</h2>
+                        <h2>03.</h2> 
                         <h3>STUDENT SERVICE</h3>
                     </a>
                 </div>
@@ -76,11 +77,11 @@
         <section class="third">
             <div>
                 <h3>Student Teacher Ratio</h3>
-                <p>15:1</p>
+                <p>12:1</p>
             </div>
             <div>
                 <h3>Job Placement</h3>
-                <p>95%</p>
+                <p>90%</p>
             </div>
             <div>
                 <h3>Graduate Students</h3>
@@ -93,77 +94,110 @@
         </section>
 
         <section class="fourth">
-            <h2>Upcoming Events</h2>
+            <h2 style="font-size: 2.8rem">Upcoming Events</h2>
 
-            <div>
-                <h2>Sun, Feb 04</h2>
-                <p>Saturday Fair / Great Hall, Brockway Community College</p>
+            <div class="fourthContainer">
+                <div class="box">
+                    <h3>Sun, Feb 04</h3> 
+                    <p>Saturday Fair / Great Hall, Brockway Community College</p>
+                </div>
+                <div class="box">
+                    <button id="btn3">REGISTER NOW</button>
+                </div>    
             </div>
-            <div>
-                <h2>Sun, May 20</h2>
-                <p>Saturday Fair / Great Hall, Brockway Community College</p>
+
+            <div class="fourthContainer">
+                <div class="box">
+                    <h3>Sun, Feb 04</h3> 
+                    <p>Saturday Fair / Great Hall, Brockway Community College</p>
+                </div>
+                <div class="box">
+                    <button id="btn3">REGISTER NOW</button>
+                </div>    
             </div>
-            <div>
-                <h2>Mon, Aug 20</h2>
-                <p>Saturday Fair / Great Hall, Brockway Community College</p>
+
+            <div class="fourthContainer last">
+                <div class="box">
+                    <h3>Sun, Feb 04</h3> 
+                    <p>Saturday Fair / Great Hall, Brockway Community College</p>
+                </div>
+                <div class="box">
+                    <button id="btn3">REGISTER NOW</button>
+                </div>    
             </div>
-            <div>SEE ALL EVENTS</div>
+
+            <button id="btn4">SEE ALL EVENTS</button>
         </section>
-    </main>
 
-    <footer>
+        <section class="fifth">
+            
+        </section>
+
         <section class="fifth">
             <div>
                 <h2>Painzo Republik Community College</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat sed, laborum maxime tempora neque temporibus quidem molestias illum fugit eveniet vitae, magnam, facere veniam doloribus et. Magni sed deleniti corporis!</p>
             </div>
 
-            <div>
-                <form action="">
-                    <p><label for="username">First Name</label><br>
-                    <input type="text" id="username" name="username"></p>
+            <div class="box boxBg">
+                <div class="box1">
+                    <h2 style="margin-bottom: 1rem;">Get in Touch</h2>
+                    <form action="" method="post" >
+                        <div id="formContainer">
+                            <div id="formfloat">
+                                <p><label for="username">First Name*</label><br>
+                                <input type="text" id="username" name="username"></p>
 
-                    <p><label for="lastname">Last Name</label><br>
-                    <input type="text" id="lastname" name="lastname"></p>
+                                <p><label for="email">Email*</label><br>
+                                    <input type="email" id="email" name="email"></p>
+                            </div>
 
-                    <p><label for="email">Email</label><br>
-                    <input type="email" id="email" name="email"></p>
+                            <div id="formfloat" class="ff2">
+                                <p><label for="lastname">Last Name</label><br>
+                                <input type="text" id="lastname" name="lastname"></p>
 
-                    <p><label for="phonenumber">Phone</label><br>
-                    <input type="tel" id="phonenumber" name="phonenumber"></p>
+                                <p><label for="phonenumber">Phone</label><br>
+                                <input type="tel" id="phonenumber" name="phonenumber"></p>
+                            </div>
+                        </div>
 
-                    <button type="submit">SEND</button>
-                </form>
+                        <div id="divbtn">
+                            <button id="btn5" type="submit">SEND</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </section>
+    </main>
 
+    <footer>
         <section>
             <div>
-                <h3>Registration Office</h3>
-                <p>info@mysite</p>
+                <h3>Registration <span class="wrap"> Office</span></h3>
+                <p style="margin-top: 1rem;">info@mysite</p>
                 <p>Tel:647-887-3234</p>
             </div>
             
             <div>
                 <h3>Admisssion Office</h3>
-                <p>info@mysite</p>
+                <p style="margin-top: 1rem;">info@mysite</p>
                 <p>Tel:647-887-3234</p>
             </div>
 
             <div>
                 <h3>Financial Aid Office</h3>
-                <p>info@mysite</p>
+                <p style="margin-top: 1rem;">info@mysite</p>
                 <p>Tel:647-887-3234</p>
             </div>
 
             <div>
                 <h3>International Office</h3>
-                <p>info@mysite</p>
+                <p style="margin-top: 1rem;">info@mysite</p>
                 <p>Tel:647-887-3234</p>
             </div>
         </section>
 
-        <p>&copy; by Painzo Republik Community College</p>
+        <p id="copyright">&copy; 2024 by Painzo Republik College</p>
     </footer>
 </body>
 </html>
