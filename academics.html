@@ -9,37 +9,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Painzo Republik College</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="https://kit.fontawesome.com/503d88ca7f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
     <header>
         <nav>
-            <nav>
-                <span class="head-container">
-                   <img src="img/Blue Modern Free Academy Logo (100 x 100 px) (100 x 100 px).png" width="100" height="100">
-                   <span class="header">PR</span>
-                   <span class="head">COLLEGE</span>
-               </span>
-               <a id="testing" class="active" href="#">
-                   <span class="material-symbols-outlined">account_circle </span>
-               </a>
-                   <ul>
-                       <li><a class="active first" href="#">Log in</a>
-                       </li> 
-                       <li><a class="active" href="index.html">Home</a></li>
-                       <li><a href="academics.html">Academics</a></li>
-                       <li><a href="faculty.html">Faculty & Staff</a></li>
-                       <li><a href="#">Apply & Enroll</a></li>
-                       <li><a href="events.html">Events</a></li>
-                       <li><a href="campus.html">Campus Life</a></li>
-                       <li><a class="last" href="contact.html">contact</a></li>
-                   </ul>`
-               </nav>
+         <span class="head-container">
+            <img src="img/Blue Modern Free Academy Logo (100 x 100 px) (100 x 100 px).png" width="100" height="100">
+            <span class="header">PR</span>
+            <span class="head">COLLEGE</span>
+        </span>
+            <ul>
+                <li><a class="active first" href="#">Log in</a></li> 
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="faculty.html">Faculty & Staff</a></li>
+                <li><a href="apply.html">Apply & Enroll</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="campus.html">Campus Life</a></li>
+                <li><a class="last" href="contact.html">contact</a></li>
+            </ul>
+        </nav>
     </header>
 
+
     <main>
-        <section>
+        <section id="academicsBg">
+            <!--Input of Background Image-->
             <h2>Our Programs</h2>
         </section>
 
@@ -47,74 +45,213 @@
             <div class="course-box">
                 <h2>1</h2>
                 <p>Accounting</p>
-                <button>Learn More</button>
+                <button id="btn01" onclick="location.href='academics/accounting.html'" >Learn More</button>
+            </div>
+
+            <div class="course-box">
+                <h2>2</h2>
+                <p>Art</p>
+                <button id="btn01" onclick="location.href='academics/art.html'">Learn More</button>
+            </div>
+
+            <div class="course-box">
+                <h2>3</h2>
+                <p>Science</p>
+                <button id="btn01" onclick="location.href='academics/science.html'">Learn More</button>
+            </div>
+
+            <div class="course-box">
+                <h2>4</h2>
+                <p>Business <br> Administration</p>
+                <button id="btn01" onclick="location.href='academics/business.html'">Learn More</button>
+            </div>
+
+            <div class="course-box">
+                <h2>5</h2>
+                <p>Communications</p>
+                <button id="btn01" onclick="location.href='academics/communication.html'">Learn More</button>
+            </div>
+
+            <div class="course-box">
+                <h2>6</h2>
+                <p>Environmental <br> Studies</p>
+                <button id="btn01" onclick="location.href='academics/environmental.html'">Learn More</button>
+            </div>
+
+            <div class="course-box">
+                <h2>7</h2>
+                <p>English <br> Studies</p>
+                <button id="btn01" onclick="location.href='academics/english.html'">Learn More</button>
+            </div>
+
+            <div class="course-box">
+                <h2>8</h2>
+                <p>Econmics</p>
+                <button id="btn01" onclick="location.href='academics/economics.html'">Learn More</button>
+            </div>
+
+            <div class="course-box">
+                <h2>9</h2>
+                <p>Manufacturing Technologies</p>
+                <button id="btn01" onclick="location.href='academics/manufacturing.html'">Learn More</button>
+            </div>
+
+            <div class="course-box">
+                <h2>10</h2>
+                <p>Global Studies</p>
+                <button id="btn01" onclick="location.href='academics/global.html'">Learn More</button>
+            </div>
+
+            <div class="course-box">
+                <h2>11</h2>
+                <p>Graphic and Interactive Design</p>
+                <button id="btn01" onclick="location.href='academics/graphic.html'">Learn More</button>
+            </div>
+
+            <div class="course-box">
+                <h2>12</h2>
+                <p>History</p>
+                <button id="btn01" onclick="location.href='academics/history.html'">Learn More</button>
+            </div>
+
+            <div class="course-box">
+                <h2>13</h2>
+                <p>Mathematics</p>
+                <button id="btn01" onclick="location.href='academics/maths.html'">Learn More</button>
+            </div>
+
+            <div class="course-box">
+                <h2>14</h2>
+                <p>Sociology</p>
+                <button id="btn01" onclick="location.href='academics/sociology.html'">Learn More</button>
+            </div>
+
+            <div class="course-box">
+                <h2>15</h2>
+                <p>Music</p>
+                <button id="btn01" onclick="location.href='academics/music.html'">Learn More</button>
             </div>
         </section>
 
-        <section>
+        <section id="academicOpt">
             <h2>Our Academic Options</h2>
             <div class="acad-container">
                 <div class="acad-item">
-                    <h3>Online Education</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab quam libero quidem, numquam eveniet maiores incidunt.</p>
+                    <div class="acad-box">
+                        <h3><i class="fa-solid fa-video" style="color: #04425f;"></i> &nbsp; Online Education</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab quam libero quidem, numquam eveniet maiores incidunt.</p>
+                    </div>
                 </div>
+
+                <div class="acad-item">
+                    <div class="acad-box">
+                        <h3><i class="fa-solid fa-shield" style="color: #04425f;"></i> &nbsp; Degree</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab quam libero quidem, numquam eveniet maiores incidunt.</p>
+                    </div>
+                </div>
+
+                <div class="acad-item">
+                    <div class="acad-box">
+                        <h3><i class="fa-regular fa-file" style="color: #04425f;"></i> &nbsp; Certificates</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab quam libero quidem, numquam eveniet maiores incidunt.</p>
+                    </div>
+                </div>
+
+                <div class="acad-item">
+                    <div class="acad-box">
+                        <h3><i class="fa-solid fa-globe" style="color: #04425f;"></i> &nbsp; Transfer Opportunity</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab quam libero quidem, numquam eveniet maiores incidunt.</p>
+                    </div>
+                </div>
+
+                <div class="acad-item">
+                    <div class="acad-box">
+                        <h3><i class="fa-solid fa-desktop" style="color: #04425f;"></i> &nbsp; Career Training</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab quam libero quidem, numquam eveniet maiores incidunt.</p>
+                    </div>
+                </div>
+
+                <div class="acad-item">
+                    <div class="acad-box">
+                        <h3><i class="fa-regular fa-comment" style="color: #04425f;"></i>&nbsp; Community Opportunities</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab quam libero quidem, numquam eveniet maiores incidunt.</p>
+                    </div>
+                </div>
+
             </div>
         </section>
     </main>
 
     <footer>
-        <section class="fifth">
-            <div>
-                <h2>Painzo Republik Community College</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat sed, laborum maxime tempora neque temporibus quidem molestias illum fugit eveniet vitae, magnam, facere veniam doloribus et. Magni sed deleniti corporis!</p>
+        <section class="sixth">
+            <div class="box">
+                <div class="box1 box-line">
+                    <span class="head-container">
+                        <img src="img/Blue Modern Free Academy Logo (100 x 100 px) (100 x 100 px).png" width="100" height="100">
+                        <span class="header">PR</span>
+                        <span class="head">COLLEGE</span>
+                    </span>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat sed, laborum maxime tempora neque temporibus quidem molestias illum fugit eveniet vitae, magnam, facere veniam doloribus et. Magni sed deleniti corporis!</p>
+                </div>
             </div>
 
-            <div>
-                <form action="">
-                    <p><label for="username">First Name</label><br>
-                    <input type="text" id="username" name="username"></p>
+            <div class="box boxBg">
+                <div class="box1">
+                    <h2 style="margin-bottom: 1rem;">Get in Touch</h2>
+                    <form action="" method="post" >
+                        <div id="formContainer">
+                            <div id="formfloat">
+                                <p><label for="username">First Name*</label><br>
+                                <input type="text" id="username" name="username"></p>
 
-                    <p><label for="lastname">Last Name</label><br>
-                    <input type="text" id="lastname" name="lastname"></p>
+                                <p><label for="email">Email*</label><br>
+                                    <input type="email" id="email" name="email"></p>
+                            </div>
 
-                    <p><label for="email">Email</label><br>
-                    <input type="email" id="email" name="email"></p>
+                            <div id="formfloat" class="ff2">
+                                <p><label for="lastname">Last Name</label><br>
+                                <input type="text" id="lastname" name="lastname"></p>
 
-                    <p><label for="phonenumber">Phone</label><br>
-                    <input type="tel" id="phonenumber" name="phonenumber"></p>
+                                <p><label for="phonenumber">Phone</label><br>
+                                <input type="tel" id="phonenumber" name="phonenumber"></p>
+                            </div>
+                        </div>
 
-                    <button type="submit">SEND</button>
-                </form>
+                        <div id="divbtn">
+                            <button id="btn5" type="submit">SEND</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </section>
-
-        <section>
+  
+        <section class="seventh">
             <div>
-                <h3>Registration Office</h3>
-                <p>info@mysite</p>
+                <h3>Registration <span class="wrap"> Office</span></h3>
+                <p style="margin-top: 1rem;">info@mysite</p>
                 <p>Tel:647-887-3234</p>
             </div>
             
             <div>
                 <h3>Admisssion Office</h3>
-                <p>info@mysite</p>
+                <p style="margin-top: 1rem;">info@mysite</p>
                 <p>Tel:647-887-3234</p>
             </div>
 
             <div>
                 <h3>Financial Aid Office</h3>
-                <p>info@mysite</p>
+                <p style="margin-top: 1rem;">info@mysite</p>
                 <p>Tel:647-887-3234</p>
             </div>
 
             <div>
                 <h3>International Office</h3>
-                <p>info@mysite</p>
+                <p style="margin-top: 1rem;">info@mysite</p>
                 <p>Tel:647-887-3234</p>
             </div>
         </section>
 
-        <p>&copy; by Painzo Republik Community College</p>
+        <p id="copyright">&copy; 2024 by Painzo Republik College</p>
     </footer>
 
 </body>
