@@ -1,462 +1,20 @@
-/* Academics design */
-#academicsBg {
-    height: 500px;
-    background: url('../img/AcadBgImg.jpg') no-repeat center;
-    background-size: cover;
-    text-align: center;
-    padding-top: 170px;
+main {
+    margin-top: 90px;
 }
 
-#academicsBg h2 {
-    font-size: 4rem;
-    background-color: #fff;
-    width: 60%;
-    margin: auto;
-    max-width: 450px;
-    box-shadow: 2px 2px 2px #ffffff;
-}
-
-.Courses-Container {
-    /* display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 120px;
-    gap: 1.4rem; */
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: center;
-    grid-gap: 1.5rem;
-    padding: 50px 0;
-}
-
-.course-box {
-    width: 400px;
-    height: 270px;
-    background-color: #fff;
-    padding-top: 20px;
-    padding-left: 40px;
-    font-size: 2rem;
-    position: relative;
-}
-
-.course-box p {
-    margin-top: 1rem;
-}
-
-.course-box h2 {
-    border-bottom: 2px solid #a52907;
-    width: 40px;
-    padding-bottom: 10px;
-}
-
-#btn01 {
-    padding: 10px 25px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    border: 2px solid #04425f;
-    background-color: #fff;
-}
-
-#btn01:hover {
-    background-color: #04425f;
+#AcadCourseBg {
+    background: #a52907;
+    height: 250px;
     color: #fff;
-    cursor: pointer;
-}
-
-#academicOpt {
-    background-color: #fff;
-    padding-top: 80px;
-    padding-left: 50px;
-    padding-right: 50px;;
-}
-
-#academicOpt h2 {
-    font-size: 4rem;
-    font-weight: bolder;
+    font-size: 2rem;
     text-align: center;
-}
-
-#academicOpt h3 {
-    color: #04425f;
-    font-weight: bold;
-    font-size: 1.7rem;
-}
-
-.acad-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-}
-
-.acad-item {
-    padding: 50px 30px;
-    border: 1px solid rgba(165, 41, 7, 0.5);
-}
-
-.acad-box {
-    margin-top: 2rem;
-    width: 350px;
-    height: 250px;
-    margin: auto;
-}
-
-.acad-box p {
-    margin-top: 1.2rem;
-    line-height: 30px;
-}
-
-/* Faculty design */
-#facultyBg {
-    height: 500px;
-    background: url('../img/facultyBgImg.jpg') no-repeat center;
-    background-size: cover;
-    text-align: center;
-    padding-top: 170px;
-}
-
-#facultyBg h2 {
-    font-size: 4rem;
-    background-color: #fff;
-    width: 60%;
-    margin: auto;
-    max-width: 480px;
-    box-shadow: 2px 2px 2px #ffffff;
-}
-
-#facultyIntro {
-    border: 2px solid green;
-    padding-top: 60px;
-    padding-bottom: 10px;;
-}
-
-#facultyIntro h3 {
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 1.5rem;
-}
-
-.staff {
-    padding-top: 60px;
-    background-color: #fff;
-}
-
-.staff h3 {
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 1.5rem;
-}
-
-.staff-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 1.4rem;
-    justify-content: center;
-    margin-top: 3rem;
-    padding-bottom: 100px;
-}
-
-.staff-box {
-    width: 350px;
-    background-color: #f8f5f1;
-    height: 280px;
-    padding: 30px;
-}
-
-.staff-box p {
-    margin-top: 1rem;
-    font-size: 3.5rem;
-    font-weight: bold;
-}
-
-.sbEeven {
-    height: 340px;
-}
-
-.staff-box a {
-    color: #04425f;
-    display: inline-block;
-    margin-top: 1.7rem;
-}
-
-/*Apply design */
-#applyBg {
-    height: 500px;
-    background: url('../img/applyBgImg.jpg') no-repeat center -170px;
-    background-size: cover;
-    text-align: center;
-    padding-top: 170px;
-}
-
-#applyBg h2 {
-    font-size: 4rem;
-    background-color: #fff;
-    width: 60%;
-    margin: auto;
-    max-width: 450px;
-    box-shadow: 2px 2px 2px #ffffff;
-}
-
-.applyContainer {
-    width: 77%;
-    max-width: 1100px;
-    margin: auto;
-}
-
-.applyContainer::after {
-    content: "";
-    display: table;
-    clear: both;
-    
-}
-
-.apply-box {
-    max-width: 500px;
-    float: left;
-    padding: 50px;
-}
-
-.apply-box ul {
-    padding-left: 100px;
-}
-
-.apply-box li {
-    line-height: 2.4rem;
-}
-
-#application-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: #fff;
-    padding-bottom: 1rem;
-}
-
-#application-container div {
-    text-align: center;
-    min-width: 400px;
-    height: 250px;
     padding-top: 100px;
 }
 
-#application-container a {
-    text-decoration: none;
-    font-size: 2rem;
-}
-
-/*Events design */
-#eventsBg {
-    height: 500px;
-    background: url('../img/eventsBgImg.jpg') no-repeat center -50px;
-    background-size: cover;
-    text-align: center;
-    padding-top: 170px;
-}
-
-#eventsBg h2 {
-    font-size: 4rem;
-    background-color: #fff;
-    width: 60%;
-    margin: auto;
-    max-width: 400px;
-    box-shadow: 2px 2px 2px #ffffff;
-}
-
-#event {
-    width: 100%;
-    max-width: 100%;
-    padding-left: 30px;
-    padding: 30px;
-}
-
-.eventBorder {
-    border-bottom: 1px solid #a5290756;
-}
-
-#btn30 {
-    padding: 15px;
-    background-color: #04425f;
-    color:#fff;
-    font-size: 0.8rem;
-    cursor: pointer;
-    float: right;
-}
-
-#last {
-    border: none;
-}
-
-/*Campus design */
-#campusBg {
-    height: 500px;
-    background: url('../img/campusBgImg.jpg') no-repeat center ;
-    background-size: cover;
-    text-align: center;
-    padding-top: 170px;
-}
-
-#campusBg h2 {
-    font-size: 4rem;
-    background-color: #fff;
-    width: 60%;
-    margin: auto;
-    max-width: 500px;
-    box-shadow: 2px 2px 2px #ffffff;
-}
-
-.campus-container {
-    background-color: #fff;
-    padding-top: 2rem;
-    padding-bottom: 2rem ;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: center;
-    grid-gap: 1.7rem;
-}
-
-.campus-item {
-    border: 2px solid green;
-    width: 400px;
-    height: 600px;
-}
-
-/*Contact design */
-#contactBg {
-    height: 500px;
-    background: url('../img/campusBgImg.jpg') no-repeat center ;
-    background-size: cover;
-    text-align: center;
-    padding-top: 170px;
-}
-
-#contactBg h2 {
-    font-size: 4rem;
-    background-color: #fff;
-    width: 60%;
-    margin: auto;
-    max-width: 400px;
-    box-shadow: 2px 2px 2px #ffffff;
-}
-.contact-info {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    background-color: #fff;
-}
-
-.contact-info h2 {
-    text-align:  center;
-    font-size: 2.5rem;
-}
-
-.Contact-Container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: center;
-    margin-top: 3rem;
-}
-
-.address-container {
-    width: 300px;
-}
-
-.hours-container {
-    width: 400px;
-}
-
-.form-container {
-    width: 400px;
-    margin-left: 3rem;
-    padding: 30px;
-    background-color: #a5290734;
-}
-
-.contact-box1 {
-    height: 250px;
-}
-
-.contact-box1 h3 {
-    font-size: 1.8rem;
-}
-
-.contact-box1 ul {
-    margin-top: 2rem;
-    list-style-type: none;
-}
-
-.contact-box1 li {
-    line-height: 1.8rem;
-    font-weight: 600;
-}
-
-.contact-box1  a {
-    color: #04425f;;
-}
-
-.contact-box {
-    height: 200px;
-}
-
-.contact-box h3 {
-    font-size: 1.8rem;
-}
-
-.contact-box ul {
-    margin-top: 2rem;
-    list-style-type: none;
-}
-
-.contact-box li {
-    line-height: 1.8rem;
-    font-weight: 600;
-}
-
-.contact-box  a {
-    color: #04425f;;
-}
-
-.form-container input {
-    background-color: #fff;
-    border: none;
-}
-
-.form-container textarea {
-    background-color: #fff;
-    border: none;
-    width: 100%;
-    resize: none;
-}
-
-.form-container p {
-    margin-top: 1rem;
-}
-
-.form-container button {
-    padding: 15px 60px;
-    background-color: #04425f;
-    color: #fff;
-    font-size: 1rem;
-    margin-top: 2rem;
-    cursor: pointer;
-}
-
-
-/*Academic Courses design */
-#AcadCourseBg {
-    background-color: #a52907;
-    height: 200px;
-}
-
-#AcadCourseBg h2 {
-    color: #fff;
-    padding-top: 60px;
-    text-align: center;
-    font-size: 4rem;
-}
-
 .pagecontrol {
-    margin: 2.5rem auto;
+    overflow: auto;
     width: 77%;
+    margin: 2rem auto;
     max-width: 1110px;
 }
 
@@ -469,66 +27,152 @@
     display: inline;
 }
 
-.pagecontrol::after {
-    display: table;
-    content: "";
-    clear: both;
-}
-
 .pagecontrol a {
-    text-decoration: none;
     color: #04425f;
-    font-weight: 600;
-}
-
-.pagecontrol a:hover {
-    color: #a52907;
+    text-decoration: none;
     font-weight: 600;
 }
 
 .AcadCourseContainer {
-    margin: 2.5rem auto 6rem;
     width: 77%;
+    margin: 2rem auto;
     max-width: 1110px;
+}
+
+.AcadCourseContainer::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .AcadCourseBox {
     float: left;
     width: 50%;
-    height: 500px;
-    position: relative;
-}
-
-.AcadCourseBox p {
-    text-align: justify;
-}
-
-.AcadCourseContainer .one {
-    padding-right: 4rem;
+    height: 550px;
 }
 
 .AcadCourseBox img {
     width: 100%;
-    height: 500px;
 }
 
-.AcadCourseBox ul{
-    padding-left: 1rem;
+.AcadCourseBox ul {
+    list-style-position: inside;
+    padding-left: 5px;
+}
+
+.AcadCourseBox li{
     line-height: 2rem;
 }
 
-.AcadCourseContainer::after {
-    display: table;
-    content: "";
-    clear: both;
+.one {
+    position: relative;
+    padding-right: 30px;
 }
 
 #btn40 {
-    display: block;
-    padding: 15px 60px;
+    margin-top: 2rem;
+    padding: 12px 30px;
     background-color: #04425f;
-    color: #fff;
-    font-size: 1rem;
+    color:#fff;
+    font-size: 1.05rem;
+    cursor: pointer;
     position: absolute;
     bottom: 0;
+}
+
+@media (max-width: 525px) {
+    main {
+        margin-top: 70px;
+    }
+
+    .pagecontrol {
+        overflow: auto;
+        width: 300px;
+        margin: 2rem auto;
+    }
+    
+    .AcadCourseContainer {
+        width: 100%;
+        margin: 2rem auto;
+    }
+
+    .AcadCourseBox img {
+        width: 100%;
+        height: auto;
+    }
+
+    .AcadCourseBox {
+        width: 300px;
+        margin: 2rem auto;
+        float: none;
+        height: auto;
+    }
+
+    .one {
+        position: relative;
+        padding-right: 0px;
+        height: 470px;
+    }
+    
+    #btn40 {
+        margin-top: 4rem;
+        margin-left: 3.5rem;
+        padding: 9px;
+        background-color: #04425f;
+        color:#fff;
+        font-size: 1rem;
+        cursor: pointer;
+        display: block;
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+@media (min-width: 525px) and (max-width: 1200px) {
+    main {
+        margin-top: 70px;
+    }
+
+    .pagecontrol {
+        overflow: auto;
+        width: 500px;
+        margin: 2rem auto;
+    }
+    
+    .AcadCourseContainer {
+        width: 100%;
+        margin: 2rem auto;
+    }
+
+    .AcadCourseBox img {
+        width: 100%;
+        height: auto;
+    }
+
+    .AcadCourseBox {
+        width: 500px;
+        margin: 2rem auto;
+        float: none;
+        height: auto;
+    }
+
+    .one {
+        position: relative;
+        padding-right: 0px;
+        height: 350px;
+    }
+    
+    #btn40 {
+        margin-top: 4rem;
+        margin-left: 3.5rem;
+        padding: 9px;
+        background-color: #04425f;
+        color:#fff;
+        font-size: 1rem;
+        cursor: pointer;
+        display: block;
+        position: absolute;
+        bottom: 0;
+    }
+
 }

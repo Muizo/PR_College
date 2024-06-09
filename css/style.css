@@ -17,12 +17,6 @@
 }
 
 .Courses-Container {
-    /* display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 120px;
-    gap: 1.4rem; */
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
@@ -124,6 +118,10 @@
     margin: auto;
     max-width: 480px;
     box-shadow: 2px 2px 2px #ffffff;
+}
+
+.and {
+    white-space: nowrap;
 }
 
 #facultyIntro {
@@ -288,7 +286,12 @@
     margin-top: 1.7rem;
 }
 
-/*Apply design */
+.facultyP {
+    width: 800px;
+    margin: auto;
+}
+
+/*Apply design*/
 #applyBg {
     height: 500px;
     background: url('../img/applyBgImg.jpg') no-repeat center -170px;
@@ -352,7 +355,7 @@
     font-size: 2rem;
 }
 
-/*Events design */
+/*Events design*/
 #eventsBg {
     height: 500px;
     background: url('../img/eventsBgImg.jpg') no-repeat center -50px;
@@ -457,6 +460,7 @@
     max-width: 400px;
     box-shadow: 2px 2px 2px #ffffff;
 }
+
 .contact-info {
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -557,4 +561,504 @@
     font-size: 1rem;
     margin-top: 2rem;
     cursor: pointer;
+}
+
+
+@media (max-width: 525px) {
+    /*Academic design*/
+    #academicsBg h2 {
+        font-size: 2rem;
+        background-color: #fff;
+        width: 300px;
+        margin: auto;
+        max-width: 450px;
+        box-shadow: 2px 2px 2px #ffffff;
+    }
+    
+    .Courses-Container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1.4rem;
+    }
+
+    .course-box {
+        width: 300px;
+        margin: auto;
+    }
+
+    #academicOpt h2 {
+        font-size: 2rem;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    #academicOpt h3 {
+        color: #04425f;
+        font-weight: bold;
+        font-size: 1.4rem;
+    }
+
+    .acad-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    .acad-item {
+        padding: 15px;
+        border: 1px solid rgba(165, 41, 7, 0.5);
+    }
+    
+    .acad-box {
+        margin: 2rem auto;
+        width: 300px;
+        height: 250px;
+    }
+
+    /* Faculty design */
+    #facultyBg h2 {
+        font-size: 2rem;
+        background-color: #fff;
+        width: 300px;
+        margin: auto;
+        max-width: 300px;
+        box-shadow: 2px 2px 2px #ffffff;
+    }
+
+    .and {
+        line-break: 2rem;
+    } 
+
+    #facultyIntro h3 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+    
+    .faculty-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .faculty-box {
+        width: 350px;
+        height: 480px;
+        margin: auto;
+    }
+    
+    .staff-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .staff-box {
+        width: 300px;
+        background-color: #f8f5f1;
+        height: 280px;
+        padding: 30px;
+        margin: auto;
+    }
+
+    .staff h3 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .facultyP {
+        width: 100%;
+        padding: 0 20px;;
+    }
+
+    /*Apply design*/
+    #applyBg {
+        height: 500px;
+        background: url('../img/applyBgImg.jpg') no-repeat center ;
+        background-size: cover;
+
+    }
+
+    #applyBg h2 {
+        font-size: 2rem;
+        background-color: #fff;
+        width: 300px;
+        margin: auto;
+        max-width: 450px;
+        box-shadow: 2px 2px 2px #ffffff;
+    }
+    
+    .applyContainer {
+        width: 100%;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .apply-box {
+        width: 100%;
+        float: none;
+        padding: 20px;
+
+    }
+
+    .apply-box ul {
+        padding-left: 20px;
+    }
+
+    #application-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    #application-container div {
+        text-align: center;
+        min-width: 300px;
+        height: 200px;
+        padding-top: 100px;
+    }
+    
+    #application-container a {
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+
+    /*Events design*/
+    #eventsBg h2 {
+        font-size: 2rem;
+        background-color: #fff;
+        width: 300px;
+        margin: auto;
+        max-width: 450px;
+        box-shadow: 2px 2px 2px #ffffff;
+    }
+
+    #btn30 {
+        padding: 8px;
+    }
+
+    /*Campus design */
+    #campusBg h2 {
+        font-size: 2rem;
+        background-color: #fff;
+        width: 300px;
+        margin: auto;
+        max-width: 450px;
+        box-shadow: 2px 2px 2px #ffffff;
+    }
+
+    .campus-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .campus-item {
+        width: 300px;
+        min-height: 600px;
+        padding: 30px;
+        background-color: #f8f5f1;
+    }
+
+    /*Contact design */
+    #contactBg h2 {
+        font-size: 2rem;
+        background-color: #fff;
+        width: 300px;
+        margin: auto;
+        max-width: 450px;
+        box-shadow: 2px 2px 2px #ffffff;
+    }
+
+    .contact-info h2 {
+        text-align:  center;
+        font-size: 1.5rem;
+    }
+
+    .Contact-Container {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        margin-top: 3rem;
+        padding-left: 20px;;
+    }
+
+    .hours-container {
+        width: 300px;
+    }
+    
+    .form-container {
+        width: 300px;
+        margin-left: 0px;
+        padding: 30px;
+        background-color: #a5290734;
+    }
+
+    .form-container button {
+        padding: 15px;
+        background-color: #04425f;
+        color: #fff;
+        font-size: 1rem;
+        margin-top: 2rem;
+        cursor: pointer;
+    }
+}
+
+
+
+@media (min-width: 525px) and (max-width: 1200px) {
+     /*Academic design*/
+     #academicsBg h2 {
+        font-size: 3rem;
+        background-color: #fff;
+        width: 400px;
+        margin: auto;
+        max-width: 450px;
+        box-shadow: 2px 2px 2px #ffffff;
+    }
+    
+    .Courses-Container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1.4rem;
+        padding: 0 5px;
+    }
+
+    .course-box {
+        width: 300px;
+        margin: auto;
+    }
+
+    #course-box-end {
+        display: block;
+    }
+
+    #academicOpt h2 {
+        font-size: 2rem;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    #academicOpt h3 {
+        color: #04425f;
+        font-weight: bold;
+        font-size: 1.4rem;
+    }
+
+    .acad-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    .acad-item {
+        padding: 15px;
+        border: 1px solid rgba(165, 41, 7, 0.5);
+    }
+    
+    .acad-box {
+        margin: 2rem auto;
+        width: 300px;
+        height: 250px;
+    }
+
+    /* Faculty design */
+    #facultyBg h2 {
+        font-size: 3rem;
+        background-color: #fff;
+        width: 400px;
+        margin: auto;
+        max-width: 300px;
+        box-shadow: 2px 2px 2px #ffffff;
+    }
+
+    .and {
+        line-break: 2rem;
+    } 
+
+    #facultyIntro h3 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+    
+    .faculty-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .faculty-box {
+        width: 350px;
+        height: 480px;
+        margin: auto;
+    }
+    
+    .staff-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .staff-box {
+        width: 300px;
+        background-color: #f8f5f1;
+        height: 280px;
+        padding: 30px;
+        margin: auto;
+    }
+
+    .staff h3 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .facultyP {
+        width: 100%;
+        padding: 0 20px;;
+    }
+
+    /*Apply design*/
+    #applyBg {
+        height: 500px;
+        background: url('../img/applyBgImg.jpg') no-repeat center ;
+        background-size: cover;
+
+    }
+
+    #applyBg h2 {
+        font-size: 3rem;
+        background-color: #fff;
+        width: 400px;
+        margin: auto;
+        max-width: 450px;
+        box-shadow: 2px 2px 2px #ffffff;
+    }
+    
+    .applyContainer {
+        width: 100%;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .apply-box {
+        width: 100%;
+        float: none;
+        padding: 20px;
+
+    }
+
+    .apply-box ul {
+        padding-left: 20px;
+    }
+
+    #application-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    #application-container div {
+        text-align: center;
+        min-width: 300px;
+        height: 200px;
+        padding-top: 100px;
+    }
+    
+    #application-container a {
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+
+    /*Events design*/
+    #eventsBg h2 {
+        font-size: 3rem;
+        background-color: #fff;
+        width: 400px;
+        margin: auto;
+        max-width: 450px;
+        box-shadow: 2px 2px 2px #ffffff;
+    }
+
+    #btn30 {
+        padding: 8px;
+    }
+
+    /*Campus design */
+    #campusBg h2 {
+        font-size: 3rem;
+        background-color: #fff;
+        width: 400px;
+        margin: auto;
+        max-width: 450px;
+        box-shadow: 2px 2px 2px #ffffff;
+    }
+
+    .campus-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .campus-item {
+        width: 500px;
+        min-height: 600px;
+        padding: 30px;
+        background-color: #f8f5f1;
+    }
+
+    /*Contact design */
+    #contactBg h2 {
+        font-size: 3rem;
+        background-color: #fff;
+        width: 400px;
+        margin: auto;
+        max-width: 450px;
+        box-shadow: 2px 2px 2px #ffffff;
+    }
+
+    .contact-info h2 {
+        text-align:  center;
+        font-size: 1.5rem;
+    }
+
+    .Contact-Container {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        margin-top: 3rem;
+        padding-left: 20px;;
+    }
+
+    .hours-container {
+        width: 500px;
+    }
+    
+    .form-container {
+        width: 500px;
+        margin-left: 0px;
+        padding: 30px;
+        background-color: #a5290734;
+    }
+
+    .form-container button {
+        padding: 15px;
+        background-color: #04425f;
+        color: #fff;
+        font-size: 1rem;
+        margin-top: 2rem;
+        cursor: pointer;
+    }
 }
